@@ -1,1 +1,1 @@
-# rock-paper-scissors
+Javascript assignment from the Odin Project. 
