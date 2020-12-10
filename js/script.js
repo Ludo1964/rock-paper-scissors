@@ -54,6 +54,7 @@ newGame.addEventListener("click", function(){
 	createDiv();
 })
 
+/*Play the game*/
 function playGame(e){
 	playerSelection = e.target.id;
 	computerSelection = computerPlay();
