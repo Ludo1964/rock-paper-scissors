@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Rock Paper Scissors
+	</title>
+	<link rel="stylesheet" href="css/normalise.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/d1898a23ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Rock Paper Scissors</h1>
+		<h3>First to 5 wins</h3>
+
+		<div class="grid-container-score">
+			<div class="grid-item grid-item-text"><h2>And the Score is:</h2></div>
+			<div class="grid-item grid-item-comp"><h2>Player:</h2></div>
+			<div class="grid-item grid-item-player"><h2>Comp:</h2></div>
+			<div class="grid-item grid-item-playercount">
+				<i class="far fa-hand-rock fa-2x" id="playRock"></i>
+				<i class="far fa-hand-paper fa-2x" id="playPaper"></i>
+				<i class="far fa-hand-scissors fa-2x" id="playScissors"></i>
+			</div>
+			<div class="grid-item grid-item-playerscore" id="grid-item-playerscore"><span>0</span></div>
+			<div class="grid-item grid-item-divide"></div>
+			<div class="grid-item grid-item-compscore"><span>0</span></div>
+			<div class="grid-item grid-item-compcount">
+				<i class="far fa-hand-rock fa-2x" id="compRock"></i>
+				<i class="far fa-hand-paper fa-2x" id="compPaper"></i>
+				<i class="far fa-hand-scissors fa-2x" id="compScissors"></i>
+			</div>
+		</div>
+		<div class="grid-container-play">
+			<div class="grid-item grid-item-text">
+				<h2>Make Your Choice</h2>
+			</div>
+			<div class="grid-item grid-item-play" >
+				<i class="far fa-hand-rock fa-3x iconHover" id="rock"></i>
+				<h4>Rock</h4>
+			</div>
+			<div class="grid-item grid-item-play" >
+				<i class="far fa-hand-paper fa-3x iconHover" id="paper"></i>
+				<h4>Paper</h4>
+			</div>
+			<div class="grid-item grid-item-play" >
+				<i class="far fa-hand-scissors fa-3x iconHover" id="scissors"></i>
+				<h4>Scissors</h4>
+			</div>
+		</div>
+		<button type="" class="gameOver"><h4>New Game</h4></button>
+	</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
